@@ -12,6 +12,7 @@ Use it for setting up a take-home interview assignment or a portfolio project.
 ## Tech Stack
 
 - React
+- Typescript
 - create-react-app
 - ExpressJS
 - Cypress
