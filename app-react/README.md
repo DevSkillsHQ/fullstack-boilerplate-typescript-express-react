@@ -1,6 +1,7 @@
 # Frontend Boilerplate
 
-- React 11
+- React
+- Typescript
 - create-react-app
 - Cypress
 - GitHub Actions
