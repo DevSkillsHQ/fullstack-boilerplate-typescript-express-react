@@ -7,6 +7,9 @@ on:
       - main
 
 jobs:
+  test-for-workflow-v2:
+    name: Alva test workflow
+    uses: DevSkillsHQ/publish-test-results-workflow/.github/workflows/publish-test-results.yml@main
   # Verifies the boilerplate can start and run in GitHub Actions environment
   test-for-workflow:
     runs-on: ubuntu-20.04
