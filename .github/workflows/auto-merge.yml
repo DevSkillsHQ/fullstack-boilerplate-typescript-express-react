@@ -45,7 +45,7 @@ jobs:
         with:
           build: npm run build
           start: npm run start
-          wait-on: 'npx wait-on --timeout ${{ env.WAIT_ON_TIMEOUT }} tcp:${{ steps.vars.outputs.port }}'
+          wait-on: 'npx wait-on --timeout ${{ env.WAIT_ON_TIMEOUT }} tcp:127.0.0.1:${{ steps.vars.outputs.port }}'
         env:
           WAIT_ON_TIMEOUT: ${{ vars.WAIT_ON_TIMEOUT }}
 
@@ -85,7 +85,7 @@ jobs:
         with:
           build: npm run build
           start: npm run start
-          wait-on: 'npx wait-on --timeout ${{ env.WAIT_ON_TIMEOUT }} tcp:${{ steps.vars.outputs.port }}'
+          wait-on: 'npx wait-on --timeout ${{ env.WAIT_ON_TIMEOUT }} tcp:127.0.0.1:${{ steps.vars.outputs.port }}'
         env:
           WAIT_ON_TIMEOUT: ${{ vars.WAIT_ON_TIMEOUT }}
 
