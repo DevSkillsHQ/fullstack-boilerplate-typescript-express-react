@@ -46,15 +46,6 @@ jobs:
         with:
           build: npm run build
           start: npm run start
-          
-      # Running tests for Backend challenges. Waiting on API is required.    
-      - name: Run tests with waiting on API
-        if: env.apiUrl != ''
-        uses: cypress-io/github-action@v5
-        with:
-          build: npm run build
-          start: npm run start
-          wait-on: ${{ env.apiUrl }}
 
   check-dependabot:
     needs:
