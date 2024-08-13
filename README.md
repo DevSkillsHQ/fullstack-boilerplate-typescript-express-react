@@ -10,7 +10,7 @@ A backbone for your coding challenge.
 
 ## Tech Stack
 
-- React 18
+- React
 - Typescript
 - Vite
 - Vitest
