@@ -19,7 +19,7 @@
     "@types/react-dom": "^19.2.0",
     "jsdom": "^27.0.0",
     "vitest": "^3.2.4",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.3"
   },
   "scripts": {
     "start": "vite",
