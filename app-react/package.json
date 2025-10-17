@@ -16,7 +16,7 @@
     "@types/jest": "^30.0.0",
     "@types/node": "^24.8.1",
     "@types/react": "^19.2.2",
-    "@types/react-dom": "^19.2.0",
+    "@types/react-dom": "^19.2.2",
     "jsdom": "^27.0.0",
     "vitest": "^3.2.4",
     "typescript": "^5.9.2"
