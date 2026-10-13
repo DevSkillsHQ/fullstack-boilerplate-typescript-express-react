@@ -6,7 +6,7 @@ updates:
       interval: "weekly"
     open-pull-requests-limit: 10
     ignore:
-      # TypeScript 7 is the Go rewrite; ts-jest and the Angular compiler do not run on it yet.
+      # Remove once the tools this app builds with declare support for TypeScript 7.
       - dependency-name: "typescript"
         versions: [">=7"]
     groups:
@@ -37,7 +37,7 @@ updates:
       interval: "weekly"
     open-pull-requests-limit: 10
     ignore:
-      # TypeScript 7 is the Go rewrite; ts-jest and the Angular compiler do not run on it yet.
+      # Remove once the tools this app builds with declare support for TypeScript 7.
       - dependency-name: "typescript"
         versions: [">=7"]
     groups:
