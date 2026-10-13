@@ -5,6 +5,10 @@ updates:
     schedule:
       interval: "weekly"
     open-pull-requests-limit: 10
+    ignore:
+      # TypeScript 7 is the Go rewrite; ts-jest and the Angular compiler do not run on it yet.
+      - dependency-name: "typescript"
+        versions: [">=7"]
     groups:
       react:
         patterns:
@@ -32,6 +36,10 @@ updates:
     schedule:
       interval: "weekly"
     open-pull-requests-limit: 10
+    ignore:
+      # TypeScript 7 is the Go rewrite; ts-jest and the Angular compiler do not run on it yet.
+      - dependency-name: "typescript"
+        versions: [">=7"]
     groups:
       minor-and-patch:
         update-types:
